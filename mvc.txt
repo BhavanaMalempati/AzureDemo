@@ -1,0 +1,26 @@
+1)MVC-stand for
+2)It is an architecture?
+3)We have Control on Routing in mvc
+a)2 types of routing
+b)AppStart folder
+c)conventional and attribute based
+d)By Default in app start folder conventional based routing
+e)3 parameters in Maproute Method
+f)name,url,default in maproute method
+g)UrlParameer.Optional
+h)above action method
+i)Conventional based Routing we define Default last in terms of priority
+j){controller}\{action}\{id}
+k)routes.MapMvcAttributeRoutes();
+l)if you defined on method attribute base routing then on that method conventional based routing 
+  will not work
+m)attribute based routing they prefer compare to conventional
+4)ViewBag.info=data;  @ViewBag.info
+a)dynamic property ie. ViewBag
+b)anytype 
+c)ViewBag  can handle null values
+d)Controller to View through ViewBag
+5)return View(model);
+a)how you catch model value:@model applicationName.Models.ModelName
+b)@Model.value
+
